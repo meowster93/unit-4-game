@@ -1,0 +1,44 @@
+body {
+    background-image: url("../images/crystal-background.jpg");
+    width: 100%;
+    height: 100%;
+    background: repeat;
+    position: relative;
+    z-index: 1;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: auto;
+}
+
+#header {
+    padding:2rem;
+    background: #cc0707;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#instructions {
+    clear: both;
+    background:rgba(116, 54, 197, 0.795);
+    padding: 2%;
+    margin: 1.5%;
+    display: flex;
+    float: left;
+}
+
+#crystals {
+    background: #6f069931;
+    padding: 1%;
+    margin: 1%;
+}
+
+#counterspace {
+    background: rgb(90, 2, 90);
+    padding: 1%;
+    margin: 1%;
+    color: white;
+    height: auto;
+    width: auto;
+    float: right;
+    text-align: left;
+}
