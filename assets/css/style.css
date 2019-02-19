@@ -30,6 +30,7 @@ body {
     background: #6f069931;
     padding: 1%;
     margin: 1%;
+    box-align: center;
 }
 
 #counterspace {
@@ -39,6 +40,5 @@ body {
     color: white;
     height: auto;
     width: auto;
-    float: right;
     text-align: left;
 }
