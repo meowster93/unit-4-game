@@ -54,7 +54,7 @@ body {
 }
  #win-lose {
      font-size: 3.5rem;
-     color: black;
+     color: rgb(178, 184, 211);
      float: right;
      background: rgba(250, 50, 250, 0.295);
      height: auto;
