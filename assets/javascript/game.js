@@ -41,14 +41,14 @@ $(document).ready(function () {
     console.log(reset);
 
     function win() {
-        alert("you win!")
+        $("#win-lose").text("You Win!");
         gameWins++;
         $("#winCount").text("Wins:" + gameWins);
         reset();
     }
 
     function lose() {
-        alert("you lose!")
+       $("#win-lose").text("You Lose!");
         gameLosses++;
         $("#lossesCount").text("Losses:" + gameLosses);
         reset();
