@@ -35,7 +35,7 @@ $(document).ready(function () {
         crystalSilver = Math.floor((Math.random() * 12) + 1)
         totalScore = 0;
         $("#totalScore").text("Total Score:" + totalScore);
-        $("#randomScore").text(randomScore);
+        $("#randomScore").text("Random Score:" + randomScore);
 
     }
     console.log(reset);
