@@ -54,6 +54,7 @@ $(document).ready(function () {
         reset();
     }
 
+
     //adding the random crystal numbers to total score 
 
 

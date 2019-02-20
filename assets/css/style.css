@@ -26,7 +26,7 @@ body {
 }
 
 #crystals {
-    background: #6f069931;
+    background: #6f069975;
     padding: 1%;
     margin: 1%;
     box-align: center;
@@ -55,4 +55,8 @@ body {
  #win-lose {
      font-size: 3.5rem;
      color: black;
+     float: right;
+     background: rgba(250, 50, 250, 0.295);
+     height: auto;
+     width: auto;
  }
