@@ -41,4 +41,15 @@ body {
     height: auto;
     width: auto;
     text-align: left;
+    position: relative; 
+}
+
+#randomScore {
+    background: palevioletred;
+    padding: 1%;
+    margin: 1%;
+    color: black;
+    height: auto;
+    width: auto;
+    text-align: left;
 }
