@@ -4,20 +4,12 @@ $(document).ready(function () {
     var gameLosses = 0;
     var totalScore = 0;
     var randomScore = Math.floor((Math.random() * 100) + 20)
-    console.log(randomScore);
 
     //created a random number for crystals 1-12
     var crystalAmethyst = Math.floor((Math.random() * 12) + 1)
-    console.log(crystalAmethyst);
-
     var crystalEmerald = Math.floor((Math.random() * 12) + 1)
-    console.log(crystalEmerald);
-
     var crystalMajestic = Math.floor((Math.random() * 12) + 1)
-    console.log(crystalMajestic);
-
     var crystalSilver = Math.floor((Math.random() * 12) + 1)
-    console.log(crystalSilver);
 
     //shows wins, losses, and total score at set variable 
     $("#winCount").text("Wins:" + gameWins);
@@ -38,7 +30,6 @@ $(document).ready(function () {
         $("#randomScore").text("Random Score:" + randomScore);
 
     }
-    console.log(reset);
 
     function win() {
         $("#win-lose").text("You Win!");
